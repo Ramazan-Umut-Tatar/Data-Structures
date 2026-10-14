@@ -1,0 +1,12 @@
+Oto işlemlerde kromozom sayısı aşıldığında yani hatalı girdi verince 'Karar()' fonksiyonu ile
+sistemi tekrar döngüye sokmaya çalıştığımda çalışıyor ama hatalı çalışıyor.
+Eğer kullanıcı hata yapıp sonra doğru sayı girerse oto işlemler 2 defa çalışıyor.
+Eğer kullanıcı 2 hata yaparsa sonra doğru bir sayi girerse oto işlemler bu kez 3 defa çalışıyor.
+Sorunu çözemedim hocam.derleme hatası alınmaması için return yazdım. 
+
+kromozomListeleri.cpp > line(393) <---- burası hocam
+
+Harfe karşı korumalı yapamadım hocam. Whatsapp grubunda <cctype> kütüphanesi kullanmak yasak demişlerdi aklıma sadece
+isalpha'yı kullanmak geldi,yasak olunca korumayı yapamadım.
+
+kromozomListeleri.cpp > line(390) <---- burası hocam.
